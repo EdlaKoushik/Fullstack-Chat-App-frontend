@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-    baseURL: import.meta.env.VITE_API_URL || "http://localhost:8787/api",
+    baseURL: "https://full-stack-chat-application-backend.vercel.app/api",
     withCredentials: true,
 });
